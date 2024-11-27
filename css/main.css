@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+}
+
+#logo{
+    height: 100%;
+    margin-left: 10px;
+    display: inline;
+}
+
+button{
+    border: 0;
+    background-color: black;
+    color: white;;
+}
+
+.container-navbar{
+    display: flex;
+    padding-left: 30px;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-around;
+}
