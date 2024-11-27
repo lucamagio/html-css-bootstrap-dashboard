@@ -9,6 +9,7 @@ header{
     color: white;
     height: 70px;
     display: flex;
+    margin-bottom: 30px;
 }
 
 #logo{
@@ -29,4 +30,14 @@ button{
     max-width: 500px;
     width: 100%;
     justify-content: space-around;
+}
+
+#add-book{
+    border: 0;
+    background-color:mediumblue;
+    color: white;;
+}
+
+#title-section{
+    margin-bottom: 20px;
 }
