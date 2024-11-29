@@ -24,8 +24,10 @@
     <main class="container">
         <div id="title-section">
             <div class="row">
-                <h4 class="col-10">Catalogo Libri</h4>
-                <button id="add-book" class="col-2">Aggiungi Libro</button>
+                <h4 class="col">Catalogo Libri</h4>
+                <div class="col-auto text-end">
+                    <button type="button" class="btn btn-primary btn-sm">Aggiungi Libro</button>
+                </div>
             </div>
         </div>
 
@@ -34,119 +36,119 @@
                 <thead>
                     <tr>
                         <th class="col-5">Titolo</th>
-                        <th class="col-3">Data Prestito</th>
-                        <th class="col-3">Stato</th>
-                        <th class="col-1">Azioni</th>
+                        <th class="d-none d-md-table-cell col-2">Data Prestito</th>
+                        <th class="col-3 text-center">Stato</th>
+                        <th class="col-2 text-center">Azioni</th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
                         <td>I pilastri della terra</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-success">Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-success">Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>I promessi sposi</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-success">Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"> <span class="badge rounded-pill bg-success">Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Il signore degli anelli</td>
-                        <td>18/10/2023</td>
-                        <td><span class="badge rounded-pill bg-warning">In Prestito</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">18/10/2023</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-warning">In Prestito</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Harry Potter e la pietra filosofale</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-success">Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-success">Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Il codice Da Vinci</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-danger">Non Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-danger">Non Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Shining</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-success">Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-success">Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>La divina commedia</td>
-                        <td>21/09/2023</td>
-                        <td><span class="badge rounded-pill bg-warning">In Prestito</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">21/09/2023</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-warning">In Prestito</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Il trono di spade</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-success">Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-success">Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Il mondo di Sofia</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-danger">Non Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-danger">Non Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
-                        <td>25/07/2023</td>
-                        <td><span class="badge rounded-pill bg-warning">In Prestito</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">25/07/2023</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-warning">In Prestito</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>Il piccolo principe</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-success">Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-success">Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>La storia infinita</td>
-                        <td>-</td>
-                        <td><span class="badge rounded-pill bg-success">Disponibile</span></td>
-                        <td>
-                            <button id="modify"><i class="bi bi-pencil-fill"></i></button>
-                            <button id="trash"><i class="bi bi-trash3-fill"></i></button></i>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td class="text-center"><span class="badge rounded-pill bg-success">Disponibile</span></td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                 </tbody>
