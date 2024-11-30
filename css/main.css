@@ -5,10 +5,8 @@
 }
 
 header{
-    background-color: black;
     color: white;
     height: 70px;
-    display: flex;
     margin-bottom: 30px;
 }
 
